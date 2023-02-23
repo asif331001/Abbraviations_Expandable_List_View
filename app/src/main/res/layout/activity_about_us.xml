@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1"
+    android:padding="16dp">
+
+    <TextView
+        android:gravity="center"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:background="#5E00FF"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Story"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, ex ac dignissim bibendum, tellus purus commodo ex, ac feugiat enim turpis in justo. Integer dignissim sed elit vel convallis. Duis eu massa efficitur, dignissim nisl eu, ullamcorper mauris. Proin vel mauris orci. Nunc lacinia efficitur lacus, vel viverra purus tempus eu. Donec dignissim mauris et nisi bibendum cursus. Nam non turpis non ipsum ullamcorper bibendum. Sed porttitor ante at mi pellentesque hendrerit. Duis vel augue velit. Proin pretium ipsum ut nisl vehicula sollicitudin."/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:background="#5E00FF"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Mission"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique, ex ac dignissim bibendum, tellus purus commodo ex, ac feugiat enim turpis in justo."/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:background="#5E00FF"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Team"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="John Doe - CEO\nJane Smith - COO\nBob Johnson - CTO"/>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1"
+    android:padding="16dp">
+
+    <TextView
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:background="#5E00FF"
+        android:padding="2dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123 Main St, New York, NY 10001"/>
+
+    <TextView
+        android:background="#5E00FF"
+        android:padding="2dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(123) 456-7890"/>
+
+    <TextView
+        android:background="#5E00FF"
+        android:padding="2dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact@example.com"/>
+
+    <TextView
+        android:background="#5E00FF"
+        android:padding="2dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Hour"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday - Friday: 9:00 AM - 5:00 PM"/>
+
+
+</LinearLayout>

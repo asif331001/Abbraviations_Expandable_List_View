@@ -1,8 +1,13 @@
 package com.example.expandablelistview;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
@@ -74,4 +79,49 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.menu_layout,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId()==R.id.shareid){
+
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+
+            String menuSubject = "Abbreviation App";
+            String menuBody = "This is very usefull app. \npackage com.example.expandablelistview;";
+
+            intent.putExtra(Intent.EXTRA_SUBJECT,menuSubject);
+            intent.putExtra(Intent.EXTRA_TEXT,menuBody);
+
+            startActivity(Intent.createChooser(intent,"share With "));
+        }
+
+        if (item.getItemId()==R.id.feedbackid){
+
+            Intent feedbackIntent = new Intent(getApplicationContext(),feedback.class);
+            startActivity(feedbackIntent);
+        }
+
+        if (item.getItemId()==R.id.contactid){
+
+            Intent contactIntent = new Intent(getApplicationContext(),Contact_us.class);
+            startActivity(contactIntent);
+
+        }
+
+        if (item.getItemId()==R.id.aboutid){
+
+            Intent aboutIntent = new Intent(getApplicationContext(),About_us.class);
+            startActivity(aboutIntent);
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }
