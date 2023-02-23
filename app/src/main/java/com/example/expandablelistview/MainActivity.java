@@ -3,7 +3,9 @@ package com.example.expandablelistview;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -14,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
     private ExpandableListView expandableListView;
     private CustomAdapter customAdapter;
     List<String> listDataHeader;
-    HashMap<String, List<String>> listDataChild;
+    HashMap<String,List<String>> listDataChild;
+
+    private int lastExpandedPosition = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +28,33 @@ public class MainActivity extends AppCompatActivity {
         prepareListData();
 
         expandableListView = (ExpandableListView) findViewById(R.id.expandableListViewId);
-        customAdapter = new CustomAdapter(this, listDataHeader, listDataChild);
+        customAdapter = new CustomAdapter(this,listDataHeader,listDataChild);
         expandableListView.setAdapter(customAdapter);
 
-    }
+        expandableListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
+            @Override
+            public boolean onGroupClick(ExpandableListView expandableListView, View view, int i, long l) {
 
-    public void prepareListData() {
+                String groupName = listDataHeader.get(i);
+                Toast.makeText(getApplicationContext(),groupName,Toast.LENGTH_SHORT).show();
+
+                return false;
+            }
+        });
+
+        expandableListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
+            @Override
+            public void onGroupExpand(int i) {
+                if (lastExpandedPosition!= -1 && lastExpandedPosition!= i);{
+
+                    expandableListView.collapseGroup(lastExpandedPosition);
+                }
+                lastExpandedPosition = i;
+            }
+        });
+
+    }
+    public void prepareListData(){
 
         String[] headerString = getResources().getStringArray(R.array.abbreviation_list_header);
         String[] childString = getResources().getStringArray(R.array.abbreviation_list_child);
@@ -37,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         listDataHeader = new ArrayList<>();
         listDataChild = new HashMap<>();
 
-        for (int i = 0; i < headerString.length; i++) {
+        for (int i=0; i<headerString.length; i++){
 
             //adding header data
             listDataHeader.add(headerString[i]);
@@ -45,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             List<String> child = new ArrayList<>();
             child.add(childString[i]);
 
-            listDataChild.put(listDataHeader.get(i), child);
+            listDataChild.put(listDataHeader.get(i),child);
         }
     }
 

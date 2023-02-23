@@ -4,14 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#02577a"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ExpandableListView
         android:id="@+id/expandableListViewId"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:dividerHeight="2dp"
+        android:divider="#01303f"
+
+        />
 
 
 </LinearLayout>

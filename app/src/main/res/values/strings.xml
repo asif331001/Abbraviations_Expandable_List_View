@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Abbreviations</string>
+    <string name="app_name">Expandable listView</string>
 
     <string-array name="abbreviation_list_header">
         <item>API</item>
@@ -26,6 +26,22 @@
         <item>HTML</item>
         <item>CSS</item>
         <item>XML</item>
+        <item>ACL</item>
+        <item>API</item>
+        <item>BI</item>
+        <item>CRM</item>
+        <item>CRM</item>
+        <item>GPU</item>
+        <item>IDE</item>
+        <item>IoT</item>
+        <item>JSON</item>
+        <item>MIME</item>
+        <item>NLP</item>
+        <item>OCR</item>
+        <item>OS</item>
+        <item>RAM</item>
+        <item>ROM</item>
+        <item>RSS</item>
     </string-array>
 
 
@@ -78,6 +94,38 @@
              a style sheet language used for describing the presentation of a document written in HTML or XML.</item>
         <item>Extensible Markup Language:  \n\n
              a markup language used for storing and transporting data.</item>
+        <item>Access Control List:  \n\n
+              A list of permissions attached to an object in computing that specifies which users or system processes are allowed to access the object.</item>
+        <item>Application Programming Interface:  \n\n
+              A set of protocols and tools for building software applications. An API specifies how software components should interact.</item>
+        <item>Business Intelligence:  \n\n
+              A set of techniques and tools for analyzing data to help make informed business decisions.</item>
+        <item>Customer Relationship Management:  \n\n
+              A strategy for managing a companys interactions with customers, clients, and sales prospects.</item>
+        <item>Enterprise Resource Planning:  \n\n
+              A software system that manages a companys resources, including financials, manufacturing, human resources, and supply chain.</item>
+        <item>Graphics Processing Unit:  \n\n
+              A specialized processor designed to handle the intensive computations required for rendering graphics and video.</item>
+        <item>Integrated Development Environment:  \n\n
+              A software application that provides comprehensive facilities for software development, including editing, debugging, and building.</item>
+        <item>Internet of Things:  \n\n
+              The interconnection via the Internet of computing devices embedded in everyday objects, enabling them to send and receive data.</item>
+        <item>JavaScript Object Notation:  \n\n
+              A lightweight data interchange format that is easy for humans to read and write, and easy for machines to parse and generate.</item>
+        <item>Multipurpose Internet Mail Extensions:  \n\n
+              A standard for encoding multimedia attachments, such as images and audio, in email messages.</item>
+        <item>Natural Language Processing:  \n\n
+              A field of computer science and artificial intelligence concerned with the interactions between computers and human (natural) languages.</item>
+        <item>Optical Character Recognition:  \n\n
+              The electronic conversion of images of typed, handwritten, or printed text into machine-encoded text.</item>
+        <item>Operating System:  \n\n
+              The software that manages computer hardware resources and provides common services for computer programs.</item>
+        <item>Random Access Memory:  \n\n
+              A form of computer data storage that allows data to be read or written in almost the same amount of time regardless of the physical location of data inside the memory.</item>
+        <item>Read-Only Memory:  \n\n
+              A type of computer memory that can only be read and not written to, used mainly to store firmware.</item>
+        <item>Really Simple Syndication:  \n\n
+              A web feed format used to publish frequently updated works such as blog entries, news headlines, and podcasts.</item>
     </string-array>
 
 
