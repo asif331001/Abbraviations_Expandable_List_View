@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Abbreviations</string>
+
+    <string-array name="abbreviation_list_header">
+        <item>API</item>
+        <item>AES</item>
+        <item>ASCII</item>
+        <item>BIOS</item>
+        <item>CPU</item>
+        <item>CSS</item>
+        <item>DBMS</item>
+        <item>DNS</item>
+        <item>FTP</item>
+        <item>GUI</item>
+        <item>HTML</item>
+        <item>HTTP</item>
+        <item>IP</item>
+        <item>ISP</item>
+        <item>LAN</item>
+        <item>WAN</item>
+        <item>ISP</item>
+        <item>DNS</item>
+        <item>SMTP</item>
+        <item>FTP</item>
+        <item>HTTP</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>XML</item>
+    </string-array>
+
+
+    <string-array name="abbreviation_list_child">
+        <item>Application Programming Interface: \n\n
+            a set of protocols and tools used for building software applications</item>
+        <item>Advanced Encryption Standard:  \n\n
+            a widely used symmetric encryption algorithm</item>
+        <item>American Standard Code for Information Interchange:  \n\n
+            a character encoding standard for electronic communication</item>
+        <item>Basic Input/Output System:  \n\n
+            a firmware interface that initializes and tests hardware components during the boot process</item>
+        <item>Central Processing Unit:  \n\n
+            the primary component of a computer that performs most of the processing</item>
+        <item>Cascading Style Sheets:  \n\n
+            a style sheet language used for describing the presentation of a document written in HTML or XML</item>
+        <item>Database Management System:  \n\n
+            software for managing and organizing data in databases</item>
+        <item>Domain Name System:  \n\n
+            a system that translates domain names into IP addresses</item>
+        <item>File Transfer Protocol:  \n\n
+            a protocol used for transferring files over the internet</item>
+        <item>Graphical User Interface:  \n\n
+            a type of user interface that allows users to interact with electronic devices through graphical elements</item>
+        <item>Hypertext Markup Language:  \n\n
+            a markup language used for creating web pages and other information that can be displayed in a web browser</item>
+        <item>Hypertext Transfer Protocol:  \n\n
+            a protocol used for transmitting data over the internet</item>
+        <item>Internet Protocol:  \n\n
+            a protocol used for communicating data across a network of computers</item>
+        <item>Internet Service Provider:  \n\n
+            a company that provides internet access to customers</item>
+        <item>Local Area Network:  \n\n
+             a network that connects computers and devices in a limited geographical area such as a home, office, or building.</item>
+        <item>Wide Area Network:  \n\n
+             a network that spans over a large geographical area and connects computers and devices across different locations.</item>
+        <item>Internet Service Provider:  \n\n
+             a company that provides internet access to customers.</item>
+        <item>Domain Name System:  \n\n
+             a system that translates domain names (e.g., www.example.com) into IP addresses.</item>
+        <item>Simple Mail Transfer Protocol:  \n\n
+             a protocol used for sending and receiving email messages.</item>
+        <item>File Transfer Protocol:  \n\n
+             a protocol used for transferring files between computers over a network.</item>
+        <item>Hypertext Transfer Protocol:  \n\n
+             a protocol used for transmitting data over the internet, especially web pages.</item>
+        <item>Hypertext Markup Language:  \n\n
+             a markup language used for creating web pages and other documents that can be displayed in a web browser.</item>
+        <item>Cascading Style Sheets:  \n\n
+             a style sheet language used for describing the presentation of a document written in HTML or XML.</item>
+        <item>Extensible Markup Language:  \n\n
+             a markup language used for storing and transporting data.</item>
+    </string-array>
+
+
+</resources>
