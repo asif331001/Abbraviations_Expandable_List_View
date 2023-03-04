@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#02577a"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.example.expandablelistview.MainActivity">
 
     <ExpandableListView
         android:id="@+id/expandableListViewId"
