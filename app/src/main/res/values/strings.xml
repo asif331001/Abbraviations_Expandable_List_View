@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Expandable listView</string>
 
+    <string name="alerttitel"> EXIT </string>
+    <string name="alertmsg"> Do you want to exit? </string>
+
     <string-array name="abbreviation_list_header">
         <item>API</item>
         <item>AES</item>
